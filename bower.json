@@ -1,0 +1,61 @@
+{
+  "name": "stickme",
+  "title": "jQuery StickMe Plugin",
+  "description": "Fixed elements depending on the scroll position",
+  "keywords": [
+    "stickme",
+    "stick",
+    "sticky",
+    "position",
+    "fix",
+    "fixed",
+    "lock",
+    "scroll",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "jQuery",
+    "plugin"
+  ],
+  "version": "0.1.0",
+  "homepage": "http://stickme.martinmetodiev.com",
+  "authors": [
+    {
+      "name": "Martin Metodiev",
+      "email": "metodiev.martin@gmail.com",
+      "url": "http://martinmetodiev.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinmethod/stickme.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "git://github.com/jquery/jquery.git"
+  },
+  "devDependencies": {
+    "normalize-css": "git://github.com/necolas/normalize.css.git",
+    "css_browser_selector": "git://github.com/verbatim/css_browser_selector.git",
+    "jquery": "git://github.com/jquery/jquery.git",
+    "showdown": "git://github.com/showdownjs/showdown.git",
+    "prism": "git://github.com/LeaVerou/prism.git"
+  },
+  "main": [
+    "dist/js/jquery.stickme.js",
+    "dist/js/jquery.stickme.min.js",
+    "dist/js/jquery.stickme.min.js.map",
+    "dist/css/stickme.css",
+    "dist/css/stickme.min.css",
+    "dist/css/stickme.min.css.map"
+  ],
+  "ignore": [
+    "**/.*",
+    "page",
+    ".bowerrc",
+    ".csslintrc",
+    ".jshintrc",
+    "Gruntfile.js",
+    "index.html",
+    "package.json"
+  ]
+}

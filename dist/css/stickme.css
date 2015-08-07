@@ -1,0 +1,15 @@
+/*!
+  jQuery StickMe Plugin v0.1.0
+  http://stickme.martinmetodiev.com
+
+  Copyright (c) 2015 Martin Metodiev
+  Licensed under the MIT license.
+*/
+.stickme-holder {
+  z-index: 10;
+}
+html .stickme-holder {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
