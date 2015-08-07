@@ -76,7 +76,7 @@ $('selector').stickme(); // returns the target
 
 Defines a custom target selector.
 
-*The **```target```** property is only available when initialize StickMe as a jQuery function like the example below.*
+*The **target** property is only available when initialize StickMe as a jQuery function like the example below.*
 
 ```javascript
 $.stickme({
