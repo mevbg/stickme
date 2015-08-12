@@ -36,10 +36,7 @@
   "main": [
     "dist/js/jquery.stickme.js",
     "dist/js/jquery.stickme.min.js",
-    "dist/js/jquery.stickme.min.js.map",
-    "dist/css/stickme.css",
-    "dist/css/stickme.min.css",
-    "dist/css/stickme.min.css.map"
+    "dist/js/jquery.stickme.min.js.map"
   ],
   "ignore": [
     "**/.*",
