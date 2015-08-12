@@ -84,7 +84,6 @@ $.stickme({
 });
 ```
 
-
 #### top
 
 Defines an offset from the top of the viewport.
@@ -94,9 +93,6 @@ $('selector').stickme({
     top: 10
 });
 ```
-
-
-
 
 ### Methods
 
@@ -119,7 +115,6 @@ var stickedElement = $('selector').stickme();
 
 stickedElement.destroy();
 ```
-
 
 ### Events
 
@@ -150,7 +145,7 @@ $('selector').stickme()
     });
 ```
 
-And here are all available events so far:
+And here are all available events:
 
 #### onStick
 
