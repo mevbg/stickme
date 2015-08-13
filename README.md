@@ -1,4 +1,4 @@
-# jQuery StickMe Plugin v1.0.2
+# jQuery StickMe Plugin v1.0.3
 
 Fixed elements depending on the scroll position.
 
