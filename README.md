@@ -1,6 +1,8 @@
-# jQuery StickMe Plugin v1.0.3
+# jQuery StickMe Plugin
 
 Fixed elements depending on the scroll position.
+
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![Travis](https://img.shields.io/travis/martinmethod/stickme.svg)](https://travis-ci.org/martinmethod/stickme) [![David](https://img.shields.io/david/dev/martinmethod/stickme.svg)](https://david-dm.org/martinmethod/stickme?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/stickme.svg)](https://github.com/martinmethod/stickme/releases/latest)
 
 ## Description
 

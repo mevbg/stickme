@@ -1,0 +1,60 @@
+// =========================| Demo styles |========================= //
+
+
+
+//--------------------------| Compass
+
+@import '../../../node_modules/compass-mixins/lib/compass';
+
+
+
+//====================> 1. Base
+
+.demo-holder {
+
+  $bgr-col: #ffd680;
+  $border-col: #bb810f;
+
+  .content {
+    overflow: hidden;
+
+    .box {
+      width: 48%;
+    }
+
+    .fl {
+      float: left;
+    }
+
+    .fr {
+      float: right;
+    }
+
+    .example {
+      text-align: center;
+
+      p {
+        text-align: left;
+      }
+
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+
+    .basic-destroy {
+      display: none;
+    }
+
+    .orange {
+      background-color: $bgr-col;
+      border-color: $border-col;
+    }
+  }
+
+}
