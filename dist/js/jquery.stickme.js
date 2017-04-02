@@ -1,5 +1,5 @@
 /*! 
- jQuery StickMe Plugin v1.1.0
+ jQuery StickMe Plugin v1.1.1
  http://stickme.martinmetodiev.com
 
  Copyright (c) 2017 Martin Metodiev
