@@ -16,7 +16,7 @@ jQuery StickMe Plugin gives the control to make any element on a website fixed o
 
 You can [download the plugin as an archive][zip].
 
-[zip]: https://github.com/martinmethod/stickme/zipball/master
+[zip]: https://github.com/martinmethod/stickme/zipball/prod
 
 Or you can grab it by using **npm**:
 
@@ -203,4 +203,4 @@ stickedElement.bind('onDestroy', function(e, target) {
 
 Copyright © 2015 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
 
-[licence]: https://raw.github.com/martinmethod/stickme/master/LICENSE-MIT
+[licence]: https://raw.github.com/martinmethod/stickme/prod/LICENSE-MIT
