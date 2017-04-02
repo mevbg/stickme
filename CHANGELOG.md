@@ -1,3 +1,13 @@
+<a name="1.1.3"></a>
+## 1.1.3 (2017-04-02)
+
+
+### Bug Fixes
+
+* **npm deployment:** Changed token ([72c61f9](https://github.com/martinmethod/stickme/commit/72c61f9))
+
+
+
 <a name="1.1.2"></a>
 ## 1.1.2 (2017-04-02)
 
