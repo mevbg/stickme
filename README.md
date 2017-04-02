@@ -201,6 +201,6 @@ stickedElement.bind('onDestroy', function(e, target) {
 
 ## License
 
-Copyright © 2015 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
+Copyright © 2017 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
 
 [licence]: https://raw.github.com/martinmethod/stickme/prod/LICENSE-MIT
