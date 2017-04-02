@@ -16,7 +16,7 @@
     "jQuery",
     "plugin"
   ],
-  "version": "1.0.3",
+  "version": "1.1.0",
   "homepage": "http://stickme.martinmetodiev.com",
   "authors": [
     {
@@ -36,16 +36,14 @@
   "main": [
     "dist/js/jquery.stickme.js",
     "dist/js/jquery.stickme.min.js",
-    "dist/js/jquery.stickme.min.js.map"
+    "dist/js/jquery.stickme.min.js.map",
+    "dist/css/stickme.css",
+    "dist/css/stickme.min.css",
+    "dist/css/stickme.min.css.map"
   ],
   "ignore": [
-    "**/.*",
-    "demo_components",
-    ".bowerrc",
-    ".csslintrc",
-    ".jshintrc",
-    "Gruntfile.js",
-    "index.html",
-    "package.json"
+    ".travis.yml",
+    "deploy_key.enc",
+    "deploy.sh"
   ]
 }
