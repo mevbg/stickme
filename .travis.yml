@@ -8,13 +8,13 @@ env:
   - COMMIT_AUTHOR_EMAIL: metodiev.martin@gmail.com
 branches:
   only:
-  - "/v\\d+\\.\\d+\\.\\d+/"
+  - /v\d+\.\d+\.\d+/
 deploy:
   provider: npm
   email: metodiev.martin@gmail.com
-  #Alfred's key
+  #Alfred's key: …73e2f34c
   api_key:
-    secure: LwZSzonCLEm1Zg6B1zONKkc1UFOdCvODRao4qIbXKQKEDh62UPC7UXOcsuh3KXM6ibexQc0I9AvAjujwHZ4l8TVIOaxZb9NlFqLynub+PmN6eWURudl9PMJZmoT2k70QYHi09LlPl5IX3f3yGXhf1VZz8S9/WOK3VbU4xIBvr+CUo74SwW13VOdqrUJLH+ItoZzFiY7H88FaqdKbqTDkGt3BR/uEUXtRkCO70Dj3TmRe2foMcf1980XxEYq97n2kwTu6FRr5Au/EzhB+EqgH8C5rSZtcOQGY47zjlT+572lAVb+lGAH3banQd0UH6fiPgXnYhjLt5EwbnSIcpo6h9gJFl4wzKjqtifymxVKMcvrUu87CWZMBul2x0mmEAghh4vdUd4LqluQTc7hhckYQgD8y+KziG9Sh1yDeAGoRIGeo0GSHracjQBVswiCMfCKenodcfBwmx5ke9Qt3RXUBRaJ/XWL0a2HNCnsPC1s1MKU6dVnkX/OW+YUVAFWfH/HTsyxFf3YnhXP+TNjdOCcuZe1clOFfRtVdHWoWP9f36xYUUFgdpIRErzjXL9wu+EPlX9rc23P9qbN6geewsk+UaJuabwKNx/6ngJ52EovkQNDNEdfn9c4+OXs+9Jw8RDmFiFF/BUXNYWw+vaG85lBoRvRxvp2pwm/2u8amdQo4rxI=
+    secure: cXop3Qnx9YZNk9WbYUsKBtXbXRroyp5NfkHqeaCqgZ6OFPvyy7ZNZSR19snkL+iCeVa1SLGChCbomYer5VSF+9dbil7N7odqqBPEqlu4wcQ7fFZLPzJW+EUjlIjw26+2x29aP76R8h7PZdM/divCG7TJXHl5SLX3QePs4Hm/PMYF55dmq03UWlSrqQr4KaPY+Lti9TOUIpab03NtHXsPSrDBqp1YJP/UW/r8VUDwOLzD8s4mQIznor2fVJ/baEnGTt16CRZ5/00kvJHNucM/Sjo74Ibz0BzyPy24aDs4II6LQbjIisbGR8EaOgZ7Z2iXTcWWzNIjpg0PlsxDpC0ExJxi8Tqit9JkvZCRPV/fq649rbBQWt05BtE8oJQ6t6ClcE0bn9WBbZpQhnvf/POeER9NsGJkeoyj31aZr1S0NKrqFR/KfumtUJIQLzKB19gH7XK5arhjBTJ+XFx6f0hLmQAmFhB6TMhxkyJZi2X7M6a/32NBi5yBpWn1ltaPvY6piWJZUyvof7iVxaIMZwt76+2nZ2s0OGFJ8FCWNmZHpRYEINg9AjCI5aYbo7FrehpuHo2FP44HGsZft6IeBpVQ14yTvGjYzqOuE9MlJHYEJv1B99uD5m+5AI8cnf3gNL4+8d2uc0f0PLJVwhZLFikXyPFpVBYgGEFvWOadqmduloY=
   on:
     tags: true
     all_branches: true
