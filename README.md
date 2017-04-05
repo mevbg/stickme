@@ -2,7 +2,7 @@
 
 Fixed elements depending on the scroll position.
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![Travis](https://img.shields.io/travis/martinmethod/stickme.svg)](https://travis-ci.org/martinmethod/stickme) [![David](https://img.shields.io/david/dev/martinmethod/stickme.svg)](https://david-dm.org/martinmethod/stickme?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/stickme.svg)](https://github.com/martinmethod/stickme/releases/latest)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://raw.githubusercontent.com/martinmethod/stickme/prod/LICENSE-MIT) [![Travis](https://img.shields.io/travis/martinmethod/stickme.svg)](https://travis-ci.org/martinmethod/stickme) [![David](https://img.shields.io/david/dev/martinmethod/stickme.svg)](https://david-dm.org/martinmethod/stickme?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/stickme.svg)](https://github.com/martinmethod/stickme/releases/latest) [![npm](https://img.shields.io/npm/v/stickme.svg)](https://www.npmjs.com/package/stickme) [![Bower](https://img.shields.io/bower/v/stickme.svg)](https://github.com/martinmethod/stickme)
 
 ## Description
 
@@ -201,6 +201,6 @@ stickedElement.bind('onDestroy', function(e, target) {
 
 ## License
 
-Copyright © 2015 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
+Copyright © 2017 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
 
 [licence]: https://raw.github.com/martinmethod/stickme/prod/LICENSE-MIT
