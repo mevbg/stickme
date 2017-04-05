@@ -1,3 +1,18 @@
+<a name="1.2.0"></a>
+# 1.2.0 (2017-04-05)
+
+
+### Bug Fixes
+
+* **Google Analytics:** Missed ID ([f188d92](https://github.com/martinmethod/stickme/commit/f188d92))
+
+
+### Features
+
+* **Deploy:** npm, GitHub Pages & GitHub Releases ([09a63ef](https://github.com/martinmethod/stickme/commit/09a63ef))
+
+
+
 <a name="1.1.3"></a>
 ## 1.1.3 (2017-04-02)
 
