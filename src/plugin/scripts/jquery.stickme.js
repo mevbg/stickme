@@ -6,9 +6,6 @@
   var plugin = {
     // Base plugin data
     base: {
-      // Default target selector if no such provided
-      target: $('.stickme'),
-
       // List of all supported options with their default values
       options: {
         top: 0
@@ -29,7 +26,7 @@
     setup: {
       target: function(params) {
         return params && params.hasOwnProperty('target') ?
-          params.target : plugin.base.target;
+          params.target : $('.stickme');
       },
 
       options: function(params) {
