@@ -1,3 +1,13 @@
+<a name="1.2.1"></a>
+## 1.2.1 (2017-04-11)
+
+
+### Features
+
+* **Build:** External markup support ([382b3c4](https://github.com/martinmethod/stickme/commit/382b3c4))
+
+
+
 <a name="1.2.0"></a>
 # 1.2.0 (2017-04-05)
 
