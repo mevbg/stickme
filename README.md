@@ -10,7 +10,7 @@ jQuery StickMe Plugin gives the control to make any element on a website fixed o
 
 ## Demo
 
-<a href="http://stickme.martinmetodiev.com" target="_blank">stickme.martinmetodiev.com</a>
+<a href="http://stickme.metodiev.dev" target="_blank">stickme.metodiev.dev</a>
 
 ## Getting Started
 
