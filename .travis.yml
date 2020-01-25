@@ -1,10 +1,10 @@
 language: node_js
 node_js:
-- node
+- 10
 script:
 - printf 'configs/\nsrc/\n.npmignore\n.travis.yml\nCHANGELOG.md\nGruntfile.js\nbower.json\nLICENSE-MIT\npackage.json\nnode_modules/\n.gitignore\ndeployed*' > .gitignore
 - printf '.npmignore\n.travis.yml\nCNAME' > .npmignore
-- printf 'stickme.martinmetodiev.com' > CNAME
+- printf 'stickme.metodiev.dev' > CNAME
 branches:
   only:
   - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
@@ -18,12 +18,12 @@ deploy:
 - provider: pages
   skip_cleanup: true
   github_token:
-    secure: jQz6IKMytiPKYpefg6ZnIcbz9qJwvmcqBSDX7igQSce/qYoU2+o0AjqMnyrq0cKRhbJUSAFnTPIDbSj6zrhrc0lCgQCNd+wj1PGneA8TLcbTRoTBW3A2c+2CvQ9R0vFoMieiz8owrSxZ+CCSwGebn2STXI5IdJsneiG5wGX6E/+OktdeegMPzNyU60Pp08RpEn6/YnlMhP97xpwMGtyuLYQ3xLQC87gyo1Ufe0vnvdKf0XdN20dwp2MhM/95hWda/VNV6DIcvP7++Pg6G36PSwK9ujlPArA8eCUlIq/ZHuKhrtajhHOo3I/7zaWPfDFFQPvTULqmBQ8oV9OWMrzHkjmgTItZ+6GCkBBDBczQhb4m4enMWjvfnTlH7DhtdCTXNmF6JBpRzWm3Sp/Rxpf8JjdR9VbX6+oxKHkRbJ4O/mXNtrwAqP3P9TcQGz38LptpRBi4qNiakS9KFfc59VpfEqM5McfMmKn1qe3ACgLZPkMZarcbfSJt121Y0vJfvGq0Fck5z/r7aGNkgrOFHUe/T3Uh4YhifyFIbFRzJSEaEMRlu6uHosw+x89oAAZ/pbkqEkkRaPdhra9x4I+CwAvbFr/XHpmyLITUDeLtbPMccMtevX7TBa/YPxy6iO4TkCFw7v80aZdp1bDJ8UkIuie4oLlsrGIADT2QFRA1HJ9Tlrk=
+    secure: SDGWiukaHPaXSV9cXaADPNSEl+uK+dT3nL3ypQ+CvkrBN//mIVYBxWQB7MEqanLGB9iQso06I+b7XBeznydN/bn6dI9H6mv/yXcwgxvkPCXanmdckzQLAzY94mMFmmoDrHogMufNZhvZNXcFgVPlRGr1qPzlpVecgoqNlsEa+5gdzJ1757GHGVZw408MFvM4FMXNKQYanCbZv+9z8GIGkUqiPnOYFeLf0qsHeRPs+DFbWRGx2gwyJ5Ahar1+3ztwUj7blIwNPhc40hMQ89xy1aPbRkpptbGFVknyYNFcWOH0gbkwTt2AT3lRmqZ6nYtrHHAV+cF0nkMmNQWhNHIZZVFPuIP37Xx8F5rOlHaAaotswXOMNT4SIB8iIjmV4JrSVCXz0frzqM2q7z+/9Uf7TerOI3Whhpbr9xHhOnLzXLGkhzFRJFiIlaDCRHcKam2oUdq+umEwZg+0IoLXtJlj4okoJCq+KeuasMoFsqBAgvrBfpoxrnE7a5d23ZS/WGW/0TIwePZ83B2u+PUYHVEEhKHod/2HFqYz+T7tG2QKhdZrLQZotA/muIWiMgj51GomTvSAhS3xFWqZ0phAjX6Ljm4yR5oCBE6uzfmQ4DUni7NyNFAePx3kAyBrG0tud7Z/m5uPoTzaZUDshtOYLCT1MSSs7PJoat0O1la40S6ZizU=
   on:
     tags: true
 - provider: releases
   api_key:
-    secure: jQz6IKMytiPKYpefg6ZnIcbz9qJwvmcqBSDX7igQSce/qYoU2+o0AjqMnyrq0cKRhbJUSAFnTPIDbSj6zrhrc0lCgQCNd+wj1PGneA8TLcbTRoTBW3A2c+2CvQ9R0vFoMieiz8owrSxZ+CCSwGebn2STXI5IdJsneiG5wGX6E/+OktdeegMPzNyU60Pp08RpEn6/YnlMhP97xpwMGtyuLYQ3xLQC87gyo1Ufe0vnvdKf0XdN20dwp2MhM/95hWda/VNV6DIcvP7++Pg6G36PSwK9ujlPArA8eCUlIq/ZHuKhrtajhHOo3I/7zaWPfDFFQPvTULqmBQ8oV9OWMrzHkjmgTItZ+6GCkBBDBczQhb4m4enMWjvfnTlH7DhtdCTXNmF6JBpRzWm3Sp/Rxpf8JjdR9VbX6+oxKHkRbJ4O/mXNtrwAqP3P9TcQGz38LptpRBi4qNiakS9KFfc59VpfEqM5McfMmKn1qe3ACgLZPkMZarcbfSJt121Y0vJfvGq0Fck5z/r7aGNkgrOFHUe/T3Uh4YhifyFIbFRzJSEaEMRlu6uHosw+x89oAAZ/pbkqEkkRaPdhra9x4I+CwAvbFr/XHpmyLITUDeLtbPMccMtevX7TBa/YPxy6iO4TkCFw7v80aZdp1bDJ8UkIuie4oLlsrGIADT2QFRA1HJ9Tlrk=
+    secure: SDGWiukaHPaXSV9cXaADPNSEl+uK+dT3nL3ypQ+CvkrBN//mIVYBxWQB7MEqanLGB9iQso06I+b7XBeznydN/bn6dI9H6mv/yXcwgxvkPCXanmdckzQLAzY94mMFmmoDrHogMufNZhvZNXcFgVPlRGr1qPzlpVecgoqNlsEa+5gdzJ1757GHGVZw408MFvM4FMXNKQYanCbZv+9z8GIGkUqiPnOYFeLf0qsHeRPs+DFbWRGx2gwyJ5Ahar1+3ztwUj7blIwNPhc40hMQ89xy1aPbRkpptbGFVknyYNFcWOH0gbkwTt2AT3lRmqZ6nYtrHHAV+cF0nkMmNQWhNHIZZVFPuIP37Xx8F5rOlHaAaotswXOMNT4SIB8iIjmV4JrSVCXz0frzqM2q7z+/9Uf7TerOI3Whhpbr9xHhOnLzXLGkhzFRJFiIlaDCRHcKam2oUdq+umEwZg+0IoLXtJlj4okoJCq+KeuasMoFsqBAgvrBfpoxrnE7a5d23ZS/WGW/0TIwePZ83B2u+PUYHVEEhKHod/2HFqYz+T7tG2QKhdZrLQZotA/muIWiMgj51GomTvSAhS3xFWqZ0phAjX6Ljm4yR5oCBE6uzfmQ4DUni7NyNFAePx3kAyBrG0tud7Z/m5uPoTzaZUDshtOYLCT1MSSs7PJoat0O1la40S6ZizU=
   skip_cleanup: true
   on:
     tags: true
