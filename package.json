@@ -17,18 +17,18 @@
     "plugin"
   ],
   "version": "1.2.1",
-  "homepage": "http://stickme.metodiev.dev",
-  "demo": "http://stickme.metodiev.dev",
+  "homepage": "https://stickme.metodiev.dev",
+  "demo": "https://stickme.metodiev.dev",
   "author": {
     "name": "Martin Metodiev",
     "email": "metodiev.martin@gmail.com",
-    "url": "http://metodiev.dev"
+    "url": "https://metodiev.dev"
   },
   "maintainers": [
     {
       "name": "Martin Metodiev",
       "email": "metodiev.martin@gmail.com",
-      "url": "http://metodiev.dev"
+      "url": "https://metodiev.dev"
     }
   ],
   "repository": {
