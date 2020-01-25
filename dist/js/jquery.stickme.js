@@ -1,8 +1,8 @@
 /*! 
- jQuery StickMe Plugin v1.2.1
- http://stickme.martinmetodiev.com
+ jQuery StickMe Plugin v1.3.0
+ https://stickme.metodiev.dev
 
- Copyright (c) 2017 Martin Metodiev
+ Copyright (c) 2020 Martin Metodiev
  Licensed under the MIT license.
 */
 
