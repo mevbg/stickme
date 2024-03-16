@@ -40,8 +40,5 @@
     "dist/css/stickme.css",
     "dist/css/stickme.min.css",
     "dist/css/stickme.min.css.map"
-  ],
-  "ignore": [
-    ".travis.yml"
   ]
 }
