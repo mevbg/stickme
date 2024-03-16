@@ -9,7 +9,7 @@
 
 ### Features
 
-* **Build:** External markup support ([382b3c4](https://github.com/martinmethod/stickme/commit/382b3c4))
+* **Build:** External markup support ([382b3c4](https://github.com/mevbg/stickme/commit/382b3c4))
 
 
 
@@ -19,12 +19,12 @@
 
 ### Bug Fixes
 
-* **Google Analytics:** Missed ID ([f188d92](https://github.com/martinmethod/stickme/commit/f188d92))
+* **Google Analytics:** Missed ID ([f188d92](https://github.com/mevbg/stickme/commit/f188d92))
 
 
 ### Features
 
-* **Deploy:** npm, GitHub Pages & GitHub Releases ([09a63ef](https://github.com/martinmethod/stickme/commit/09a63ef))
+* **Deploy:** npm, GitHub Pages & GitHub Releases ([09a63ef](https://github.com/mevbg/stickme/commit/09a63ef))
 
 
 
@@ -34,7 +34,7 @@
 
 ### Bug Fixes
 
-* **npm deployment:** Changed token ([72c61f9](https://github.com/martinmethod/stickme/commit/72c61f9))
+* **npm deployment:** Changed token ([72c61f9](https://github.com/mevbg/stickme/commit/72c61f9))
 
 
 
@@ -44,7 +44,7 @@
 
 ### Bug Fixes
 
-* **Docs:** Broken links ([2c7b1c0](https://github.com/martinmethod/stickme/commit/2c7b1c0))
+* **Docs:** Broken links ([2c7b1c0](https://github.com/mevbg/stickme/commit/2c7b1c0))
 
 
 
@@ -54,7 +54,7 @@
 
 ### Features
 
-* **Building system:** Refactored building system ([ec53b27](https://github.com/martinmethod/stickme/commit/ec53b27))
+* **Building system:** Refactored building system ([ec53b27](https://github.com/mevbg/stickme/commit/ec53b27))
 
 
 
